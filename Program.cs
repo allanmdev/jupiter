@@ -182,6 +182,7 @@ public class JUPITER
 
             if (nova_senha == repetir_senha)
             {
+                senha = nova_senha;
                 Console.WriteLine("Sua senha foi alterada com sucesso!");
             }
             else
